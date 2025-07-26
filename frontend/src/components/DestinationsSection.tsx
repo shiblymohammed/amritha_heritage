@@ -52,7 +52,7 @@ export default function DestinationsSection() {
       className="py-20 bg-white relative"
       style={{ fontFamily: "'Cormorant Garamond', serif" }}
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -69,7 +69,7 @@ export default function DestinationsSection() {
               Wonders
             </span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
             Discover breathtaking destinations within minutes of your luxurious
             retreat. From tranquil lakes to majestic peaks, adventure awaits at
             every turn.

@@ -68,14 +68,14 @@ export default function Accommodation() {
           className="relative z-10 text-center text-white px-4"
         >
           <h1 className="text-4xl md:text-6xl font-light mb-4">Our Elegant Rooms</h1>
-          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed">
+          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed px-2 sm:px-4">
             Find the perfect sanctuary suited to your tastes—each room blends timeless charm with contemporary luxury.
           </p>
         </motion.div>
       </section>
 
       <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4 space-y-24">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
           {rooms.map((room, idx) => (
             <motion.div
               key={room.id}
@@ -86,7 +86,7 @@ export default function Accommodation() {
               className={`flex flex-col md:flex-row items-center gap-10 ${idx % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
             >
               {/* Carousel */}
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 px-4 sm:px-6 md:px-0">
                 <div className="relative">
                   <div className="flex overflow-x-auto snap-x snap-mandatory space-x-4 scrollbar-hide">
                     {room.images.map((img, i) => (
@@ -97,7 +97,7 @@ export default function Accommodation() {
               </div>
 
               {/* Details */}
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 px-4 sm:px-6 md:px-0">
                 <h2 className="text-3xl font-medium mb-4">{room.name}</h2>
                 <p className="text-gray-700 mb-6 leading-relaxed">
                   {room.description}

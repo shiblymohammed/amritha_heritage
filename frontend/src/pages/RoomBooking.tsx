@@ -68,7 +68,7 @@ export default function RoomBooking() {
           className="relative z-10 text-center text-white px-4"
         >
           <h1 className="text-4xl md:text-6xl font-light mb-4">Reserve Your Luxury Stay</h1>
-          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed">
+          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed px-2 sm:px-4">
             Choose from our exquisite range of rooms and experience timeless elegance blended with modern comfort. Complete your stay with fine dining and curated experiences.
           </p>
         </motion.div>
@@ -76,7 +76,7 @@ export default function RoomBooking() {
 
       {/* Booking Form Section */}
       <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -194,7 +194,7 @@ export default function RoomBooking() {
 
       {/* Restaurant Menu Teaser */}
       <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -203,10 +203,10 @@ export default function RoomBooking() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-light mb-4">Indulge in Gourmet Dining</h2>
-            <p className="max-w-2xl mx-auto text-gray-700">Pair your stay with our signature dishes curated by award-winning chefs.</p>
+            <p className="max-w-2xl mx-auto text-gray-700 px-2 sm:px-4">Pair your stay with our signature dishes curated by award-winning chefs.</p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto px-4 sm:px-6 md:px-0">
             {sampleMenu.map((dish, idx) => (
               <motion.div
                 key={idx}

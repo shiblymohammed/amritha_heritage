@@ -137,14 +137,14 @@ export default function Booking() {
           className="relative z-10 text-center px-4 text-white"
         >
           <h1 className="text-4xl md:text-6xl font-light mb-4">Fine Dining Reservation</h1>
-          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed">
+          <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 leading-relaxed px-2 sm:px-4">
             Craft your culinary journey by selecting signature dishes and reserving your perfect table.
           </p>
         </motion.div>
       </section>
       
       <div className="min-h-screen bg-white pt-20">
-        <div className="container mx-auto px-6 py-12">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
           {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -156,7 +156,7 @@ export default function Booking() {
               Reserve Your{" "}
               <span className="font-normal text-amber-700">Table</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2 sm:px-4">
               Select your preferred dishes and secure your dining experience at Amritha Heritage
             </p>
           </motion.div>

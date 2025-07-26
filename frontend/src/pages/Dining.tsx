@@ -169,7 +169,7 @@ const Dining = () => {
         <main>
           {/* Hero Section */}
           <section className="pt-20 md:pt-32 pb-12 md:pb-20 relative">
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -185,7 +185,7 @@ const Dining = () => {
                     Restaurant
                   </span>
                 </h1>
-                <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6 md:mb-8 px-4">
+                <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6 md:mb-8 px-2 sm:px-4">
                   Experience culinary excellence with our award-winning chefs and carefully curated menu featuring the finest ingredients and innovative techniques.
                 </p>
                 
@@ -203,7 +203,7 @@ const Dining = () => {
 
           {/* Today's Specials */}
           <section className="py-12 md:py-20 bg-card/50">
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -220,7 +220,7 @@ const Dining = () => {
                     Specials
                   </span>
                 </h2>
-                <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
+                <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2 sm:px-4">
                   Discover our chef's daily creations featuring seasonal ingredients and innovative flavors.
                 </p>
               </motion.div>
@@ -300,7 +300,7 @@ const Dining = () => {
 
           {/* Full Menu */}
           <section className="py-12 md:py-20">
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -317,7 +317,7 @@ const Dining = () => {
                     Menu
                   </span>
                 </h2>
-                <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
+                <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2 sm:px-4">
                   Explore our extensive menu featuring classic favorites and contemporary creations.
                 </p>
               </motion.div>
@@ -385,7 +385,7 @@ const Dining = () => {
 
           {/* Restaurant Info & Reservation */}
           <section className="py-12 md:py-20 bg-card/50">
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
