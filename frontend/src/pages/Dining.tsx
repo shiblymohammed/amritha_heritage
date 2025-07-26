@@ -4,7 +4,7 @@ import { Star, Clock, Users, ChefHat, Award, Utensils, Calendar, Phone, MapPin, 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import RippleEffect from '@/components/RippleEffect';
-import cloudyBg from '@/assets/cloudy-bg.jpg';
+const cloudyBg = '/assets/cloudy-bg.jpg';
 
 // Today's Specials
 const todaysSpecials = [

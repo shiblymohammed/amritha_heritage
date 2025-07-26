@@ -8,7 +8,7 @@ import DestinationsSection from '@/components/DestinationsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import RippleEffect from '@/components/RippleEffect';
-import cloudyBg from '@/assets/cloudy-bg.jpg';
+const cloudyBg = '/assets/cloudy-bg.jpg';
 
 console.log('Index component loading...');
 

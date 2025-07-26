@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { Calendar, Clock, Users, Star, Check, X } from "lucide-react";
 import Navigation from "../components/Navigation";
-import heroImage from "@/assets/images/hero/hero-3.jpg";
 import Footer from "../components/Footer";
 
 // All available dishes
@@ -129,7 +128,7 @@ export default function Booking() {
 
       {/* Hero */}
       <section className="relative h-[55vh] md:h-[65vh] w-full overflow-hidden flex items-center justify-center">
-        <img src={heroImage} alt="Dining Hero" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/assets/images/hero/hero-3.jpg" alt="Dining Hero" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/40" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}

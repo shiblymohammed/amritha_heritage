@@ -4,17 +4,17 @@ import { motion, AnimatePresence } from "framer-motion";
 // Using placeholder images - replace with your actual hero images
 const heroImages = [
   {
-    src: "./src/assets/images/hero/hero-1.jpg",
+    src: "/assets/images/hero/hero-1.jpg",
     title: "Luxury Redefined",
     subtitle: "Experience unparalleled elegance",
   },
   {
-    src: "./src/assets/images/hero/hero-2.jpg",
+    src: "/assets/images/hero/hero-2.jpg",
     title: "Premium Suites",
     subtitle: "Where comfort meets sophistication",
   },
   {
-    src: "./src/assets/images/hero/hero-3.jpg",
+    src: "/assets/images/hero/hero-3.jpg",
     title: "Wellness Sanctuary",
     subtitle: "Rejuvenate your mind and body",
   },

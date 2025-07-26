@@ -2,9 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import hero1 from "@/assets/images/hero/hero-1.jpg";
-import hero2 from "@/assets/images/hero/hero-2.jpg";
-import hero3 from "@/assets/images/hero/hero-3.jpg";
+
+const hero1 = "/assets/images/hero/hero-1.jpg";
+const hero2 = "/assets/images/hero/hero-2.jpg";
+const hero3 = "/assets/images/hero/hero-3.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 

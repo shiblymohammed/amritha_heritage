@@ -51,7 +51,7 @@ export default function IntroSection() {
               loop
               playsInline
             >
-              <source src="./src/assets/videos/intro_1.mp4" type="video/mp4" />
+              <source src="/assets/videos/intro_1.mp4" type="video/mp4" />
               <source
                 src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
                 type="video/mp4"
@@ -175,7 +175,7 @@ export default function IntroSection() {
               borderRadius: 0,
             }}
           >
-            <source src="./src/assets/videos/intro_2.mp4" type="video/mp4" />
+            <source src="/assets/videos/intro_2.mp4" type="video/mp4" />
             <source
               src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_2mb.mp4"
               type="video/mp4"

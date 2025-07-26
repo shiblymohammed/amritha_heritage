@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { BedDouble, Wifi, Tv, Eye, Bath, ChevronLeft, ChevronRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroImg from "@/assets/images/hero/hero-1.jpg";
 
 const rooms = [
   {
@@ -13,9 +12,9 @@ const rooms = [
       "Spanning 32 m², the Deluxe Room blends vintage teak furnishing with a king-size bed and opens onto a private balcony overlooking the heritage gardens.",
     price: "₹6,000 / night",
     images: [
-      "https://source.unsplash.com/random/800x600?hotel-room",
-      "https://source.unsplash.com/random/800x600?bedroom",
-      "https://source.unsplash.com/random/800x600?balcony",
+      "/assets/images/demo/hotel-room.jpg",
+      "/assets/images/demo/bedroom.jpg",
+      "/assets/images/demo/balcony.jpg",
     ],
     amenities: [BedDouble, Wifi, Eye, Bath],
   },
@@ -26,9 +25,9 @@ const rooms = [
       "At 48 m² the Executive Suite offers a living salon, bespoke art pieces, and wrap-around windows framing panoramic estate views.",
     price: "₹9,000 / night",
     images: [
-      "https://source.unsplash.com/random/800x600?suite",
-      "https://source.unsplash.com/random/800x600?living-room",
-      "https://source.unsplash.com/random/800x600?panorama",
+      "/assets/images/demo/suite1.jpg",
+      "/assets/images/demo/living-room.jpg",
+      "/assets/images/demo/panorama.jpg",
     ],
     amenities: [BedDouble, Wifi, Tv, Eye, Bath],
   },
@@ -39,9 +38,9 @@ const rooms = [
       "A barrier-free 30 m² retreat featuring wider doorways, roll-in shower, grab bars, and lowered amenities for effortless comfort.",
     price: "₹5,500 / night",
     images: [
-      "https://source.unsplash.com/random/800x600?accessible-room",
-      "https://source.unsplash.com/random/800x600?bathroom",
-      "https://source.unsplash.com/random/800x600?garden-view",
+      "/assets/images/demo/accessible1.jpg",
+      "/assets/images/demo/bathroom.jpg",
+      "/assets/images/demo/garden-view.jpg",
     ],
     amenities: [BedDouble, Wifi, Eye, Bath],
   },
@@ -60,7 +59,7 @@ export default function Accommodation() {
 
       {/* Hero Section */}
       <section className="relative w-full h-[55vh] md:h-[65vh] overflow-hidden flex items-center justify-center">
-        <img src={heroImg} alt="Heritage Rooms" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/assets/images/hero/hero-1.jpg" alt="Heritage Rooms" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/40" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}

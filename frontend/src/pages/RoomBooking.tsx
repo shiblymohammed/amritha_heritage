@@ -3,7 +3,6 @@ import { useSearchParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroImg from "@/assets/images/hero/hero-2.jpg";
 
 // Demo menu items for quick restaurant showcase
 const sampleMenu = [
@@ -60,7 +59,7 @@ export default function RoomBooking() {
 
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
-        <img src={heroImg} alt="Heritage Villa" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/assets/images/hero/hero-2.jpg" alt="Heritage Villa" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/40" />
         <motion.div
           initial={{ opacity: 0, y: 40 }}

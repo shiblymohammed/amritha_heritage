@@ -157,8 +157,8 @@ export default function Navigation({ alwaysScrolled = false }: NavigationProps) 
               <img
                 src={
                   scrolled
-                    ? "./src/assets/logo/logoBlack.png"
-                    : "./src/assets/logo/logoWhite.png"
+                    ? "/assets/logo/logoBlack.png"
+                    : "/assets/logo/logoWhite.png"
                 }
                 alt="Logo"
                   className="h-12 w-auto transition-opacity duration-300 cursor-pointer hover:opacity-80"
@@ -269,7 +269,7 @@ export default function Navigation({ alwaysScrolled = false }: NavigationProps) 
                     >
                       <Link to="/" onClick={() => setIsOpen(false)}>
                       <img
-                        src="./src/assets/logo/logoBlack.png"
+                        src="/assets/logo/logoBlack.png"
                         alt="Logo"
                           className="h-12 w-auto cursor-pointer hover:opacity-80"
                       />
