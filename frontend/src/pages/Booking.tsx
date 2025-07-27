@@ -260,7 +260,7 @@ export default function Booking() {
 
                         <button
                           onClick={() => handleDishToggle(dish.id)}
-                          className={`w-full py-2 rounded-md font-medium transition-all duration-300 text-sm ${
+                          className={`w-full py-1.5 rounded-md font-medium transition-all duration-300 text-xs md:text-sm ${
                             selectedDishes.includes(dish.id)
                               ? "bg-amber-700 text-white hover:bg-amber-800"
                               : "bg-transparent border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400"
@@ -405,7 +405,7 @@ export default function Booking() {
                   <button
                     type="submit"
                     disabled={selectedDishes.length === 0}
-                    className={`w-full py-3 rounded-md font-medium transition-all duration-300 ${
+                    className={`w-full py-2 md:py-3 rounded-md font-medium transition-all duration-300 text-xs md:text-base ${
                       selectedDishes.length === 0
                         ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                         : "bg-amber-700 text-white hover:bg-amber-800"

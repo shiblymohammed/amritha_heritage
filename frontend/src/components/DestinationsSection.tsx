@@ -136,7 +136,7 @@ export default function DestinationsSection() {
                   </div>
                 </div>
 
-                <button className="w-full mt-6 py-2 bg-transparent border border-gray-300 text-gray-700 rounded-md font-medium hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 text-sm">
+                <button className="w-full mt-6 py-1.5 bg-transparent border border-gray-300 text-gray-700 rounded-md font-medium hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 text-xs md:text-sm">
                   Explore Destination
                 </button>
               </div>

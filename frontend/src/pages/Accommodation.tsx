@@ -119,7 +119,7 @@ export default function Accommodation() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleBook(room.id)}
-                    className="bg-amber-700 text-white px-6 py-3 inline-flex items-center justify-center hover:bg-amber-800 transition-colors"
+                    className="bg-amber-700 text-white px-3 py-1.5 md:px-5 md:py-3 inline-flex items-center justify-center w-full md:w-auto hover:bg-amber-800 transition-colors text-xs md:text-base"
                     style={{ borderRadius: 0 }}
                   >
                     Book Now

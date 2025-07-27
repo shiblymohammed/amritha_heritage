@@ -182,7 +182,7 @@ export default function RoomBooking() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 type="submit"
-                className="w-full bg-gray-800 text-yellow-50 py-4 text-lg font-medium hover:bg-gray-700 transition-colors disabled:opacity-60"
+                className="w-full bg-gray-800 text-yellow-50 py-2 md:py-4 text-sm md:text-lg font-medium hover:bg-gray-700 transition-colors disabled:opacity-60"
                 disabled={!selectedRoom}
               >
                 Confirm Booking

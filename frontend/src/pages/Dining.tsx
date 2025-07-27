@@ -287,7 +287,7 @@ const Dining = () => {
                       <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="w-full py-2 md:py-3 bg-gradient-primary text-white rounded-full font-medium hover:shadow-luxury transition-all duration-300 text-sm md:text-base"
+                        className="w-full py-2 md:py-3 bg-gradient-primary text-white rounded-full font-medium hover:shadow-luxury transition-all duration-300 text-xs md:text-base"
                       >
                         Order Now
                       </motion.button>
@@ -497,7 +497,7 @@ const Dining = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setIsReservationModalOpen(false)}
-              className="w-full mt-4 md:mt-6 py-2 md:py-3 bg-gradient-primary text-white rounded-full font-medium hover:shadow-luxury transition-all duration-300 text-sm md:text-base"
+              className="w-full mt-4 md:mt-6 py-2 md:py-3 bg-gradient-primary text-white rounded-full font-medium hover:shadow-luxury transition-all duration-300 text-xs md:text-base"
             >
               Close
             </motion.button>

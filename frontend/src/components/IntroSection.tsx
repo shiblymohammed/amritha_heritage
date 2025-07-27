@@ -169,7 +169,7 @@ export default function IntroSection() {
                 transition={{ duration: 0.6, delay: 2.4, type: "spring", stiffness: 200 }}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full max-w-xs py-4 px-6 bg-[#5e5554] text-white text-lg font-semibold tracking-wider uppercase hover:bg-[#4a433f] transition-all duration-300 rounded-lg shadow-lg"
+                className="w-full max-w-xs py-2 px-3 bg-[#5e5554] text-white text-sm font-semibold tracking-wider uppercase hover:bg-[#4a433f] transition-all duration-300 rounded-lg shadow-lg"
               >
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -186,7 +186,7 @@ export default function IntroSection() {
                 transition={{ duration: 0.6, delay: 2.6, type: "spring", stiffness: 200 }}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full max-w-xs py-4 px-6 border-2 border-[#5e5554] text-[#5e5554] text-lg font-semibold tracking-wider uppercase hover:bg-[#5e5554] hover:text-white transition-all duration-300 rounded-lg shadow-md"
+                className="w-full max-w-xs py-2 px-3 border-2 border-[#5e5554] text-[#5e5554] text-sm font-semibold tracking-wider uppercase hover:bg-[#5e5554] hover:text-white transition-all duration-300 rounded-lg shadow-md"
               >
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -203,7 +203,7 @@ export default function IntroSection() {
                 transition={{ duration: 0.6, delay: 2.8, type: "spring", stiffness: 200 }}
                 whileHover={{ scale: 1.05, y: -2, borderColor: "#5e5554", color: "#5e5554" }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full max-w-xs py-4 px-6 border-2 border-gray-400 text-gray-600 text-lg font-semibold tracking-wider uppercase transition-all duration-300 rounded-lg shadow-md"
+                className="w-full max-w-xs py-2 px-3 border-2 border-gray-400 text-gray-600 text-sm font-semibold tracking-wider uppercase transition-all duration-300 rounded-lg shadow-md"
               >
                 <motion.span
                   initial={{ opacity: 0 }}

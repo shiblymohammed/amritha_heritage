@@ -1,20 +1,23 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import hero1 from "@/assets/images/hero/hero-1.jpg";
+import hero2 from "@/assets/images/hero/hero-2.jpg";
+import hero3 from "@/assets/images/hero/hero-3.jpg";
 
 // Using placeholder images - replace with your actual hero images
 const heroImages = [
   {
-    src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2000&q=80",
+    src: hero1,
     title: "Luxury Redefined",
     subtitle: "Experience unparalleled elegance",
   },
   {
-    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2000&q=80",
+    src: hero2,
     title: "Premium Suites",
     subtitle: "Where comfort meets sophistication",
   },
   {
-    src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2000&q=80",
+    src: hero3,
     title: "Wellness Sanctuary",
     subtitle: "Rejuvenate your mind and body",
   },
@@ -158,7 +161,7 @@ export default function HeroSection() {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full max-w-xs py-4 px-8 bg-white text-black font-medium text-lg tracking-wide hover:bg-gray-100 transition-all duration-300 shadow-2xl"
+                  className="w-full max-w-xs py-2 px-4 bg-white text-black font-medium text-sm tracking-wide hover:bg-gray-100 transition-all duration-300 shadow-2xl"
                   style={{ 
                     backdropFilter: "blur(10px)",
                     border: "1px solid rgba(255,255,255,0.2)"
@@ -176,7 +179,7 @@ export default function HeroSection() {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full max-w-xs py-4 px-8 border-2 border-white/80 text-white font-medium text-lg tracking-wide hover:bg-white/10 transition-all duration-300"
+                  className="w-full max-w-xs py-2 px-4 border-2 border-white/80 text-white font-medium text-sm tracking-wide hover:bg-white/10 transition-all duration-300"
                   style={{ 
                     backdropFilter: "blur(10px)",
                   }}

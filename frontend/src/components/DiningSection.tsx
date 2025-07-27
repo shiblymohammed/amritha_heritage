@@ -132,12 +132,12 @@ export default function DiningSection() {
                 </div>
 
                 <div className="space-y-2">
-                  <button className="w-full py-2 bg-transparent border border-gray-300 text-gray-700 rounded-md font-medium hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 text-sm">
+                  <button className="w-full py-1.5 bg-transparent border border-gray-300 text-gray-700 rounded-md font-medium hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 text-xs md:text-sm">
                     Order Now
                   </button>
                   <button 
                     onClick={() => handleReserveTable(dish.id)}
-                    className="w-full py-2 bg-amber-700 text-white rounded-md font-medium hover:bg-amber-800 transition-all duration-300 text-sm"
+                    className="w-full py-1.5 bg-amber-700 text-white rounded-md font-medium hover:bg-amber-800 transition-all duration-300 text-xs md:text-sm"
                   >
                     Reserve Table
                   </button>
