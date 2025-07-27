@@ -58,7 +58,6 @@ export default function IntroSection() {
               >
                 <source src="/assets/videos/intro_1.mp4" type="video/mp4" />
                 <source
-                  src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
