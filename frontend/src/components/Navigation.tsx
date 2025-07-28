@@ -196,7 +196,7 @@ export default function Navigation({ alwaysScrolled = false }) {
                 style={{ borderRadius: "0px" }}
                 onClick={() => {}}
               >
-                book now
+                Book Now
               </motion.button>
 
               {/* Animated Menu button */}
